@@ -64,4 +64,8 @@ and if it gets the answer `0` (zero) then it considers it set properly. If it is
 
 This works for me and has never deleted my important files or posted illicit pictures to the Internet, but if that happens to you, all you will get from me is an apology. (Plus a “What? How?”)
 
+----
+
+<small>The short URL for this page is: <https://luo.ma/sudo-touch-id>.</small>
+
 
