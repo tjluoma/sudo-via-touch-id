@@ -24,7 +24,7 @@ Look, I'll be honest, it's not the most robust thing in the world. Here's what i
 	- adding the rest of the original file to the temp file
 	- setting the correct permissions of the temp file
 	- setting the correct ownership of the temp file
-	- replace the original file with the temp file
+	- replace the original file with the temp file (which requires `sudo` because… well, you’d hope so, right?)
 
 If you have done some extensive customization of your `/etc/pam.d/sudo` file, you might want to double-check this doesn't break it.
 
