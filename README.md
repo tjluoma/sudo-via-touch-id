@@ -10,7 +10,7 @@ Cabel Sasser of Panic [tweeted](https://twitter.com/cabel/status/931292107372838
 
 Which is awesome if you have a Mac with Touch ID, or one of the new [Magic Keyboard with Touch ID for Mac models with Apple silicon](https://www.apple.com/shop/product/MK293LL/A/magic-keyboard-with-touch-id-for-mac-models-with-apple-silicon-us-english) (including the new M1-based iMac).
 
-***However*** what is _not_ awesome is that each update to macOS will remove this customization (and some others) so I was continually having to re-add it, which meant googling for this tweet, finding the right file, making the change, etc.
+***However*** what is _not_ awesome is that each update to macOS (as in “11.5.0” and “11.5.1”, etc) will remove this customization (and some others) so I was continually having to re-add it, which meant googling for this tweet, finding the right file, making the change, etc.
 
 Obviously this demands to be automated! So I wrote a shell script.
 
@@ -25,6 +25,10 @@ Look, I'll be honest, it's not the most robust thing in the world. Here's what i
 	- setting the correct permissions of the temp file
 	- setting the correct ownership of the temp file
 	- replace the original file with the temp file
+
+If you have done some extensive customization of your `/etc/pam.d/sudo` file, you might want to double-check this doesn't break it.
+
+If you use the default `/etc/pam.d/sudo` this _should_ work fine (but see disclaimer below).
 
 ## iTerm
 
