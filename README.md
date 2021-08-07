@@ -66,6 +66,6 @@ This works for me and has never deleted my important files or posted illicit pic
 
 ----
 
-<small>The short URL for this page is: <https://luo.ma/sudo-touch-id>.</small>
+The short URL for this page is: <https://luo.ma/sudo-touch-id>.
 
 
