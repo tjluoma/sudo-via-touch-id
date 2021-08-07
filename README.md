@@ -6,7 +6,7 @@ TL;DR: A shell script to allow you to use Touch ID on a Mac with `sudo`.
 
 Cabel Sasser of Panic [tweeted](https://twitter.com/cabel/status/931292107372838912):
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Pro MacBook Pro Tip: have a Touch Bar with Touch ID? If you edit /etc/pam.d/sudo and add the following line to the top…<br><br>auth sufficient pam_tid.so<br><br>…you can now use your fingerprint to sudo!</p>&mdash; Cabel (@cabel) <a href="https://twitter.com/cabel/status/931292107372838912?ref_src=twsrc%5Etfw">November 16, 2017</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Pro MacBook Pro Tip: have a Touch Bar with Touch ID? If you edit /etc/pam.d/sudo and add the following line to the top…<br><br>auth sufficient pam_tid.so<br><br>…you can now use your fingerprint to sudo!</p>&mdash; Cabel (@cabel) <a href="https://twitter.com/cabel/status/931292107372838912?ref_src=twsrc%5Etfw">November 16, 2017</a></blockquote>
 
 Which is awesome if you have a Mac with Touch ID, or one of the new [Magic Keyboard with Touch ID for Mac models with Apple silicon](https://www.apple.com/shop/product/MK293LL/A/magic-keyboard-with-touch-id-for-mac-models-with-apple-silicon-us-english) (including the new M1-based iMac).
 
