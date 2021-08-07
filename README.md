@@ -60,6 +60,13 @@ and if it gets the answer `0` (zero) then it considers it set properly. If it is
 
 ***This script does not automatically change iTerm’s settings*** because I consider that up to the user to decide. Plus, if you are using iTerm when you run this script, changing the setting via `defafults write` might not even work properly. So it's best to change it via the Preferences window, IMO.
 
+## How to use this
+
+1. Download [sudo-via-touch-id.sh](https://raw.githubusercontent.com/tjluoma/sudo-via-touch-id/main/sudo-via-touch-id.sh)
+2. Make it executable: `chmod 755 sudo-via-touch-id.sh`
+3. Run it: `./sudo-via-touch-id.sh` (you will be asked for your admin/sudo password)
+4. (Optional But Useful) move it to a directory such as `/usr/local/bin/` so you can run it again next time there's an update to macOS.
+
 ## No Warranty or Guarantee or Anything Like It.
 
 This works for me and has never deleted my important files or posted illicit pictures to the Internet, but if that happens to you, all you will get from me is an apology. (Plus a “What? How?”)
